@@ -551,26 +551,35 @@ public class RandomPersonGenerator {
 		///////////////////////////////////////////////////
 		if (countryCanada) {
 			// yukon, nwt, and nunavut
-			if (sCity.equals("Whitehorse") || sCity.equals("Dawson") || sCity.equals("Yellowknife") || sCity.equals("Hay River") || sCity.equals("Iqaluit") || sCity.equals("Arviat") || sCity.equals("Rankin Inlet")) {
+			if (sCity.equals("Whitehorse") || sCity.equals("Dawson") || sCity.equals("Yellowknife") || sCity.equals("Hay River") 
+					|| sCity.equals("Iqaluit") || sCity.equals("Arviat") || sCity.equals("Rankin Inlet")) {
 				sPhone = "867";
 			}
 			// bc
-			if (sCity.equals("Vancouver") || sCity.equals("Surrey") || sCity.equals("Burnaby") || sCity.equals("Richmond") || sCity.equals("Abbotsford") || sCity.equals("Coquitlam") || sCity.equals("Langley") || sCity.equals("Delta") || sCity.equals("North Vancouver") || sCity.equals("Chilliwack") || sCity.equals("Maple Ridge") || sCity.equals("New Westminster") || sCity.equals("Port Coquitlam")) {
+			if (sCity.equals("Vancouver") || sCity.equals("Surrey") || sCity.equals("Burnaby") || sCity.equals("Richmond") 
+					|| sCity.equals("Abbotsford") || sCity.equals("Coquitlam") || sCity.equals("Langley") || sCity.equals("Delta") 
+					|| sCity.equals("North Vancouver") || sCity.equals("Chilliwack") || sCity.equals("Maple Ridge") 
+					|| sCity.equals("New Westminster") || sCity.equals("Port Coquitlam")) {
 				sPhone = "604";
 			}
-			if (sCity.equals("Kelowna") || sCity.equals("Saanich") || sCity.equals("Kamloops") || sCity.equals("Nanaimo") || sCity.equals("Victoria") || sCity.equals("Prince George")) {
+			if (sCity.equals("Kelowna") || sCity.equals("Saanich") || sCity.equals("Kamloops") || sCity.equals("Nanaimo") 
+					|| sCity.equals("Victoria") || sCity.equals("Prince George")) {
 				sPhone = "250";
 			}
 			// alberta
-			if (sCity.equals("Calgary") || sCity.equals("Edmonton") || sCity.equals("Red Deer") || sCity.equals("Lethbridge") || sCity.equals("St. Albert") || sCity.equals("Medicine Hat") || sCity.equals("Grande Prairie")) {
+			if (sCity.equals("Calgary") || sCity.equals("Edmonton") || sCity.equals("Red Deer") || sCity.equals("Lethbridge")
+					|| sCity.equals("St. Albert") || sCity.equals("Medicine Hat") || sCity.equals("Grande Prairie")) {
 				sPhone = "587";
 			}
 			// saskatchewan
-			if (sCity.equals("Saskatoon") || sCity.equals("Regina") || sCity.equals("Prince Albert") || sCity.equals("Moose Jaw") || sCity.equals("Yorkton")) {
+			if (sCity.equals("Saskatoon") || sCity.equals("Regina") || sCity.equals("Prince Albert") || sCity.equals("Moose Jaw") 
+					|| sCity.equals("Yorkton")) {
 				sPhone = "306";				
 			}
 			// manitoba
-			if (sCity.equals("Winnipeg") || sCity.equals("Brandon") || sCity.equals("Steinbach") || sCity.equals("Portage la Prairie") || sCity.equals("Thompson") || sCity.equals("Winkler") || sCity.equals("Selkirk") || sCity.equals("Dauphn") || sCity.equals("Morden")) {
+			if (sCity.equals("Winnipeg") || sCity.equals("Brandon") || sCity.equals("Steinbach") || sCity.equals("Portage la Prairie") ||
+					sCity.equals("Thompson") || sCity.equals("Winkler") || sCity.equals("Selkirk") || sCity.equals("Dauphn")
+					|| sCity.equals("Morden")) {
 				sPhone = "204";				
 			}
 			// ontario
@@ -580,10 +589,15 @@ public class RandomPersonGenerator {
 			if (sCity.equals("Ottawa") || sCity.equals("Kingston") || sCity.equals("Belleville")) {
 				sPhone = "613";				
 			}
-			if (sCity.equals("Brampton") || sCity.equals("Hamilton") || sCity.equals("Markham") ||  sCity.equals("Vaughan") ||  sCity.equals("Richmond Hill") || sCity.equals("Oakville") || sCity.equals("Burlington") || sCity.equals("Oshawa") || sCity.equals("St. Catharines") || sCity.equals("Whitby") || sCity.equals("Ajax") || sCity.equals("Pickering") || sCity.equals("Milton") || sCity.equals("Niagra Falls") || sCity.equals("Newmarket") || sCity.equals("Halton Hills")) {
+			if (sCity.equals("Brampton") || sCity.equals("Hamilton") || sCity.equals("Markham") ||  sCity.equals("Vaughan")
+					||  sCity.equals("Richmond Hill") || sCity.equals("Oakville") || sCity.equals("Burlington") || sCity.equals("Oshawa")
+					|| sCity.equals("St. Catharines") || sCity.equals("Whitby") || sCity.equals("Ajax") || sCity.equals("Pickering")
+					|| sCity.equals("Milton") || sCity.equals("Niagra Falls") || sCity.equals("Newmarket") || sCity.equals("Halton Hills")) {
 				sPhone = "289";				
 			}
-			if (sCity.equals("London") || sCity.equals("Kitchener") || sCity.equals("Windsor") || sCity.equals("Cambridge") || sCity.equals("Guelph") || sCity.equals("Chatham-Kent") || sCity.equals("Waterloo") || sCity.equals("Brantford") || sCity.equals("Sarnia") || sCity.equals("Caledon")) {
+			if (sCity.equals("London") || sCity.equals("Kitchener") || sCity.equals("Windsor") || sCity.equals("Cambridge") 
+					|| sCity.equals("Guelph") || sCity.equals("Chatham-Kent") || sCity.equals("Waterloo") || sCity.equals("Brantford")
+					|| sCity.equals("Sarnia") || sCity.equals("Caledon")) {
 				sPhone = "519";				
 			}
 			if (sCity.equals("Greater Sudbury") || sCity.equals("Barrie") || sCity.equals("Sault Ste. Marie") || sCity.equals("North Bay")) {
@@ -602,18 +616,23 @@ public class RandomPersonGenerator {
 			if (sCity.equals("Quebec City") || sCity.equals("Saguenay") || sCity.equals("Lévis")) {
 				sPhone = "418";
 			}
-			if (sCity.equals("Laval") || sCity.equals("Longueuil") || sCity.equals("Terrebonne") || sCity.equals("Repentigny") || sCity.equals("Brossard") || sCity.equals("Saint-Jérôme") || sCity.equals("Granby") || sCity.equals("Blainville")) {
+			if (sCity.equals("Laval") || sCity.equals("Longueuil") || sCity.equals("Terrebonne") || sCity.equals("Repentigny")
+					|| sCity.equals("Brossard") || sCity.equals("Saint-Jérôme") || sCity.equals("Granby")
+					|| sCity.equals("Blainville")) {
 				sPhone = "450";
 			}
-			if (sCity.equals("Gatineau") || sCity.equals("Sherbrooke") || sCity.equals("Trois-Rivières") || sCity.equals("Drummondville") || sCity.equals("Shawinigan")) {
+			if (sCity.equals("Gatineau") || sCity.equals("Sherbrooke") || sCity.equals("Trois-Rivières") 
+					|| sCity.equals("Drummondville") || sCity.equals("Shawinigan")) {
 				sPhone = "819";
 			}
 			// nb
-			if (sCity.equals("Saint John") || sCity.equals("Moncton") || sCity.equals("Fredericton") || sCity.equals("Dieppe") || sCity.equals("Miramichi") || sCity.equals("Edmundston") || sCity.equals("Bathurst")) {
+			if (sCity.equals("Saint John") || sCity.equals("Moncton") || sCity.equals("Fredericton") || sCity.equals("Dieppe") 
+					|| sCity.equals("Miramichi") || sCity.equals("Edmundston") || sCity.equals("Bathurst")) {
 				sPhone = "506";
 			}
 			// pei and ns
-			if (sCity.equals("Charlottetown") || sCity.equals("Summerside") || sCity.equals("Stratford") || sCity.equals("Cornwall") || sCity.equals("Halifax") || sCity.equals("Cape Breton")) {
+			if (sCity.equals("Charlottetown") || sCity.equals("Summerside") || sCity.equals("Stratford") || sCity.equals("Cornwall") 
+					|| sCity.equals("Halifax") || sCity.equals("Cape Breton")) {
 				sPhone = "902";
 			}
 			// newfoundland
